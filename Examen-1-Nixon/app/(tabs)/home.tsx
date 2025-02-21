@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { View, FlatList, StyleSheet } from "react-native";
-import TaskCard from "../../components/ui/TaskCard";
+import TaskCard from "../../components/TaskCard";
 
 export default function HomeScreen() {
   const [tasks, setTasks] = useState([
